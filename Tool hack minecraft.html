@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tool Hack MineCraft</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 50px;
+        }
+        h1 {
+            color: red;
+            font-size: 48px;
+            font-weight: bold;
+        }
+       
+        .text {
+            background: black;
+            color: red;
+            font-family: Arial, sans-serif;
+            font-weight: bold;
+            font-size: 2rem;
+           
+            overflow: hidden; 
+            
+          
+            width: 20%;
+            text-align: center;
+            padding: 5px 0;
+            box-sizing: border-box; 
+          
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap; 
+           
+            width: 100%; 
+            height: auto; 
+            justify-content: flex-start; 
+        }
+    </style>
+</head>
+<body>
+    <h1>CẶC CHÚC ĂN CỨC!!!!</h1> 
+    
+    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=RDdQw4w9WgXcQ&start_radio=1">BẤM VÀO ĐÂY</a>
+    
+    <div class="container" id="content"></div>
+
+    <script>
+        const container = document.getElementById("content");
+        const total = 200; // số lượng chữ
+        for (let i = 0; i < total; i++) {
+            const span = document.createElement("div");
+            span.className = "text";
+            span.textContent = "CHÚC ĂN CỨC";
+            container.appendChild(span);
+        }
+    </script>
+</body>
+</html>
